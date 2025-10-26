@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -148,7 +148,7 @@ export default function Home() {
               price: "Free",
               imageSrc: "https://images.pexels.com/photos/1111371/pexels-photo-1111371.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Basic chatbot interface",
-              onProductClick: "() => console.log('Basic SDK clicked')"
+              onProductClick: () => console.log('Basic SDK clicked')
             },
             {
               id: "advanced",
@@ -156,7 +156,7 @@ export default function Home() {
               price: "$99/mo",
               imageSrc: "https://images.pexels.com/photos/16474955/pexels-photo-16474955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Advanced AI chatbot interface",
-              onProductClick: "() => console.log('Advanced SDK clicked')"
+              onProductClick: () => console.log('Advanced SDK clicked')
             },
             {
               id: "enterprise",
@@ -164,7 +164,7 @@ export default function Home() {
               price: "Custom",
               imageSrc: "https://images.pexels.com/photos/8867220/pexels-photo-8867220.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Enterprise AI solution",
-              onProductClick: "() => console.log('Enterprise SDK clicked')"
+              onProductClick: () => console.log('Enterprise SDK clicked')
             }
           ]}
         />
